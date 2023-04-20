@@ -1,0 +1,13 @@
+  let colorArray = ['#052854', '#FCF40C', '#196DDC', '#A604CF', '#A785F6'];
+
+    let colorArray = ['#052854', '#FCF40C', '#196DDC', '#A604CF', '#A785F6'];
+
+  const [bgColor, setBgColor] = useState(colorArray);
+
+  function changeBg(){
+    let randomColor = colorArray[Math.floor(Math.random() * colorArray.length)];
+    setBgColor(randomColor);
+  }
+
+
+  
